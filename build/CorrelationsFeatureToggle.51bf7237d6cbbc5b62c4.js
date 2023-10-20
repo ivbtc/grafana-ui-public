@@ -1,0 +1,19 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunkgrafana"] = self["webpackChunkgrafana"] || []).push([["CorrelationsFeatureToggle"],{
+
+/***/ "./public/app/features/correlations/CorrelationsFeatureToggle.tsx":
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ FeatureTogglePage)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(\"./.yarn/cache/react-npm-18.2.0-1eae08fee2-88e38092da.zip/node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var app_core_components_Page_Page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(\"./public/app/core/components/Page/Page.tsx\");\n\n\n\nfunction FeatureTogglePage() {\n  return /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0___default().createElement(app_core_components_Page_Page__WEBPACK_IMPORTED_MODULE_1__.Page, { navId: \"correlations\" }, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0___default().createElement(app_core_components_Page_Page__WEBPACK_IMPORTED_MODULE_1__.Page.Contents, null, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"h1\", null, \"Correlations are disabled\"), \"To enable Correlations, add it in the Grafana config:\", /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"div\", null, /* @__PURE__ */ react__WEBPACK_IMPORTED_MODULE_0___default().createElement(\"pre\", null, `[feature_toggles]\ncorrelations = true\n`))));\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvYXBwL2ZlYXR1cmVzL2NvcnJlbGF0aW9ucy9Db3JyZWxhdGlvbnNGZWF0dXJlVG9nZ2xlLnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFrQjtBQUVHO0FBRU4sU0FBUyxvQkFBb0I7QUFDMUMsU0FDRSwyRUFBQywrREFBSSxJQUFDLE9BQU0sa0JBQ1YsMkVBQUMsK0RBQUksQ0FBQyxVQUFMLE1BQ0MsMkVBQUMsWUFBRywyQkFBeUIsR0FBSyx5REFFbEMsMkVBQUMsYUFDQywyRUFBQyxhQUNFO0FBQUE7QUFBQSxDQUdILENBQ0YsQ0FDRixDQUNGO0FBRUoiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9ncmFmYW5hLy4vcHVibGljL2FwcC9mZWF0dXJlcy9jb3JyZWxhdGlvbnMvQ29ycmVsYXRpb25zRmVhdHVyZVRvZ2dsZS50c3g/ZDhhNCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5pbXBvcnQgeyBQYWdlIH0gZnJvbSAnYXBwL2NvcmUvY29tcG9uZW50cy9QYWdlL1BhZ2UnO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBGZWF0dXJlVG9nZ2xlUGFnZSgpIHtcbiAgcmV0dXJuIChcbiAgICA8UGFnZSBuYXZJZD1cImNvcnJlbGF0aW9uc1wiPlxuICAgICAgPFBhZ2UuQ29udGVudHM+XG4gICAgICAgIDxoMT5Db3JyZWxhdGlvbnMgYXJlIGRpc2FibGVkPC9oMT5cbiAgICAgICAgVG8gZW5hYmxlIENvcnJlbGF0aW9ucywgYWRkIGl0IGluIHRoZSBHcmFmYW5hIGNvbmZpZzpcbiAgICAgICAgPGRpdj5cbiAgICAgICAgICA8cHJlPlxuICAgICAgICAgICAge2BbZmVhdHVyZV90b2dnbGVzXVxuY29ycmVsYXRpb25zID0gdHJ1ZVxuYH1cbiAgICAgICAgICA8L3ByZT5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L1BhZ2UuQ29udGVudHM+XG4gICAgPC9QYWdlPlxuICApO1xufVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./public/app/features/correlations/CorrelationsFeatureToggle.tsx\n");
+
+/***/ })
+
+}]);

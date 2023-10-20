@@ -1,0 +1,26 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(self["webpackChunkgrafana"] = self["webpackChunkgrafana"] || []).push([["public_app_plugins_datasource_dashboard_module_ts"],{
+
+/***/ "./public/app/plugins/datasource/dashboard/datasource.ts":
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   DashboardDatasource: () => (/* binding */ DashboardDatasource)\n/* harmony export */ });\n/* harmony import */ var _grafana_data__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(\"./.yarn/__virtual__/@grafana-data-virtual-0996183232/1/packages/grafana-data/src/types/datasource.ts\");\n\n\nclass DashboardDatasource extends _grafana_data__WEBPACK_IMPORTED_MODULE_0__.DataSourceApi {\n  constructor(instanceSettings) {\n    super(instanceSettings);\n  }\n  getCollapsedText(query) {\n    return `Dashboard Reference: ${query.panelId}`;\n  }\n  query(options) {\n    return Promise.reject(\"This should not be called directly\");\n  }\n  testDatasource() {\n    return Promise.resolve({ message: \"\", status: \"\" });\n  }\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvYXBwL3BsdWdpbnMvZGF0YXNvdXJjZS9kYXNoYm9hcmQvZGF0YXNvdXJjZS50cyIsIm1hcHBpbmdzIjoiOzs7Ozs7QUFNTztBQU9BLE1BQU0sNEJBQTRCLHdEQUFhLENBQWlCO0FBQUEsRUFDckUsWUFBWSxrQkFBOEM7QUFDeEQsVUFBTSxnQkFBZ0I7QUFBQSxFQUN4QjtBQUFBLEVBRUEsaUJBQWlCLE9BQXVCO0FBQ3RDLFdBQU8sd0JBQXdCLE1BQU07QUFBQSxFQUN2QztBQUFBLEVBRUEsTUFBTSxTQUF1RTtBQUMzRSxXQUFPLFFBQVEsT0FBTyxvQ0FBb0M7QUFBQSxFQUM1RDtBQUFBLEVBRUEsaUJBQWtEO0FBQ2hELFdBQU8sUUFBUSxRQUFRLEVBQUUsU0FBUyxJQUFJLFFBQVEsR0FBRyxDQUFDO0FBQUEsRUFDcEQ7QUFDRiIsInNvdXJjZXMiOlsid2VicGFjazovL2dyYWZhbmEvLi9wdWJsaWMvYXBwL3BsdWdpbnMvZGF0YXNvdXJjZS9kYXNoYm9hcmQvZGF0YXNvdXJjZS50cz8zYjNhIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7XG4gIERhdGFTb3VyY2VBcGksXG4gIERhdGFRdWVyeVJlcXVlc3QsXG4gIERhdGFRdWVyeVJlc3BvbnNlLFxuICBEYXRhU291cmNlSW5zdGFuY2VTZXR0aW5ncyxcbiAgVGVzdERhdGFTb3VyY2VSZXNwb25zZSxcbn0gZnJvbSAnQGdyYWZhbmEvZGF0YSc7XG5cbmltcG9ydCB7IERhc2hib2FyZFF1ZXJ5IH0gZnJvbSAnLi90eXBlcyc7XG5cbi8qKlxuICogVGhpcyBzaG91bGQgbm90IHJlYWxseSBiZSBjYWxsZWRcbiAqL1xuZXhwb3J0IGNsYXNzIERhc2hib2FyZERhdGFzb3VyY2UgZXh0ZW5kcyBEYXRhU291cmNlQXBpPERhc2hib2FyZFF1ZXJ5PiB7XG4gIGNvbnN0cnVjdG9yKGluc3RhbmNlU2V0dGluZ3M6IERhdGFTb3VyY2VJbnN0YW5jZVNldHRpbmdzKSB7XG4gICAgc3VwZXIoaW5zdGFuY2VTZXR0aW5ncyk7XG4gIH1cblxuICBnZXRDb2xsYXBzZWRUZXh0KHF1ZXJ5OiBEYXNoYm9hcmRRdWVyeSkge1xuICAgIHJldHVybiBgRGFzaGJvYXJkIFJlZmVyZW5jZTogJHtxdWVyeS5wYW5lbElkfWA7XG4gIH1cblxuICBxdWVyeShvcHRpb25zOiBEYXRhUXVlcnlSZXF1ZXN0PERhc2hib2FyZFF1ZXJ5Pik6IFByb21pc2U8RGF0YVF1ZXJ5UmVzcG9uc2U+IHtcbiAgICByZXR1cm4gUHJvbWlzZS5yZWplY3QoJ1RoaXMgc2hvdWxkIG5vdCBiZSBjYWxsZWQgZGlyZWN0bHknKTtcbiAgfVxuXG4gIHRlc3REYXRhc291cmNlKCk6IFByb21pc2U8VGVzdERhdGFTb3VyY2VSZXNwb25zZT4ge1xuICAgIHJldHVybiBQcm9taXNlLnJlc29sdmUoeyBtZXNzYWdlOiAnJywgc3RhdHVzOiAnJyB9KTtcbiAgfVxufVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./public/app/plugins/datasource/dashboard/datasource.ts\n");
+
+/***/ }),
+
+/***/ "./public/app/plugins/datasource/dashboard/module.ts":
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   plugin: () => (/* binding */ plugin)\n/* harmony export */ });\n/* harmony import */ var _grafana_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(\"./.yarn/__virtual__/@grafana-data-virtual-0996183232/1/packages/grafana-data/src/types/datasource.ts\");\n/* harmony import */ var _datasource__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(\"./public/app/plugins/datasource/dashboard/datasource.ts\");\n\n\n\nconst plugin = new _grafana_data__WEBPACK_IMPORTED_MODULE_1__.DataSourcePlugin(_datasource__WEBPACK_IMPORTED_MODULE_0__.DashboardDatasource);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wdWJsaWMvYXBwL3BsdWdpbnMvZGF0YXNvdXJjZS9kYXNoYm9hcmQvbW9kdWxlLnRzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBaUM7QUFFRztBQUU3QixNQUFNLFNBQVMsSUFBSSwyREFBZ0IsQ0FBQyw0REFBbUIiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9ncmFmYW5hLy4vcHVibGljL2FwcC9wbHVnaW5zL2RhdGFzb3VyY2UvZGFzaGJvYXJkL21vZHVsZS50cz83MDNmIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IERhdGFTb3VyY2VQbHVnaW4gfSBmcm9tICdAZ3JhZmFuYS9kYXRhJztcblxuaW1wb3J0IHsgRGFzaGJvYXJkRGF0YXNvdXJjZSB9IGZyb20gJy4vZGF0YXNvdXJjZSc7XG5cbmV4cG9ydCBjb25zdCBwbHVnaW4gPSBuZXcgRGF0YVNvdXJjZVBsdWdpbihEYXNoYm9hcmREYXRhc291cmNlKTtcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./public/app/plugins/datasource/dashboard/module.ts\n");
+
+/***/ })
+
+}]);
